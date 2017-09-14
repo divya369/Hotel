@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="User_name">Username</string>
+    <string name="number">Number</string>
+    <string name="email">Email ID</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="button_1">Quit</string>
+    <string name="button_2">Submit</string>
+    <string name="password">New Password</string>
+    <string name="quit">Quit</string>
+    <string name="Submit">Submit</string>
+    <string name="indian_accent">Indian Accent</string>
+    <string name="peshawri">Peshawri</string>
+    <string name="vill_maya">Villa Maya</string>
+    <string name="karavalli">Karavalli</string>
+    <string name="thalassa">Thalassa</string>
+    <string name="malaka_spice">Malaka Spice</string>
+</resources>

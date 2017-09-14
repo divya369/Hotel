@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AFE5F8"
+    tools:context="com.example.divyapatel.hotel.SignInActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sign_in"
+        android:scaleType="fitXY"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:id="@+id/signInUser"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+            />
+
+    <EditText
+        android:id="@+id/signInPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:layout_marginTop="20dp"
+            android:id="@+id/quiteBtn"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SignIn"
+            android:layout_marginTop="20dp"
+            android:id="@+id/signinBtn"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
